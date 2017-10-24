@@ -79,28 +79,32 @@ class BinaryTreeMorseCode {
         // while (data !== currentNode.data) {
 
            data = data.split("");
+           console.log(data);
 
            for (i = 0; i < data.length; i ++ ) {
-
-               if (i === "-") {
+            console.log(data[i]);
+               if (data[i] === "-") {
 
                    if (!currentNode.left) {
 
                        currentNode.left = node;
 
+                       break;
                    }
 
-               } else {
+                   currentNode = currentNode.left;
 
+               } else if (data[i] === ".") {
 
                    if (!currentNode.right) {
 
                        currentNode.right = node;
 
+                       break;
+
                    }
 
-
-
+                   currentNode = currentNode.right;
 
                }
 
