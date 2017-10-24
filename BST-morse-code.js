@@ -52,15 +52,27 @@ var BinaryTreeMorseCode = (function () {
     BinaryTreeMorseCode.prototype.insert = function (data) {
         var node = new Node(data);
         // new node constructor
-        console.log(node.data);
         if (!this.root) {
             this.root = "ROOT";
-            console.log('initial');
-            console.log('-----------');
             return;
         }
-        // let currentNode = this.root;
+        //'-.': 'n',
+        var currentNode = this.root;
         // while (data !== currentNode.data) {
+        data = data.split("");
+        for (i = 0; i < data.length; i++) {
+            if (i === "-") {
+                if (!currentNode.left) {
+                    currentNode.left = node;
+                }
+            }
+            else {
+                if (!currentNode.right) {
+                    currentNode.right = node;
+                }
+            }
+        }
+        // }
         //     if (data < currentNode.data) {
         //         if (!currentNode.left) {
         //             currentNode.left = node;
@@ -84,5 +96,7 @@ var BinaryTreeMorseCode = (function () {
     return BinaryTreeMorseCode;
 }());
 var btmc = new BinaryTreeMorseCode();
-btmc.insert("Root");
-btmc;
+btmc.insert(Object.keys(morseCode)[0]);
+btmc.insert(Object.keys(morseCode)[1]);
+/// psedo
+//
