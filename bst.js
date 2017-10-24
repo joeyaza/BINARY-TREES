@@ -184,10 +184,9 @@ var addTo = [2, 4, 3, 10, 19];
 for (i = 0; i < addTo.length; i++) {
     bst.insert(addTo[i]);
 }
-// bst.search(3);
-//
-// bst.getMin(bst.root);
-// bst.getMax(bst.root);
+bst.search(3);
+bst.getMin(bst.root);
+bst.getMax(bst.root);
 /////////////////////
 ///////// NEW //////
 ///////////////////

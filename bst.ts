@@ -200,10 +200,10 @@ for(i=0;i<addTo.length;i++) {
     bst.insert(addTo[i]);
 }
 
-// bst.search(3);
-//
-// bst.getMin(bst.root);
-// bst.getMax(bst.root);
+bst.search(3);
+
+bst.getMin(bst.root);
+bst.getMax(bst.root);
 
 
 /////////////////////
@@ -250,3 +250,5 @@ for(i=0;i<addTo.length;i++) {
 //     new Node(null, null, "B"),
 //     "START"
 // );
+
+
