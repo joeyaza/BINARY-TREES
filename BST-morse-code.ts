@@ -76,81 +76,61 @@ class BinaryTreeMorseCode {
         //'-.': 'n',
 
         let currentNode = this.root;
-        // while (data !== currentNode.data) {
+        console.log("curr>>>", currentNode);
+
 
            data = data.split("");
-           console.log(data);
 
-           for (i = 0; i < data.length; i ++ ) {
-            console.log(data[i]);
-               if (data[i] === "-") {
+           for ( let i = 0; i < data.length; i ++ ) {
 
+               if ( data[i] === ".") {
                    if (!currentNode.left) {
 
+                       let node: object = new Node(null);
                        currentNode.left = node;
 
-                       break;
                    }
 
-                   currentNode = currentNode.left;
 
-               } else if (data[i] === ".") {
+
+               } else if ( data[i] === "-") {
 
                    if (!currentNode.right) {
 
-                       currentNode.right = node;
 
-                       break;
+
+                   } else {
+
+
 
                    }
 
-                   currentNode = currentNode.right;
-
                }
+
+
+
 
            }
 
 
 
-
-
-
-
-
-
-        // }
-        //     if (data < currentNode.data) {
-        //         if (!currentNode.left) {
-        //             currentNode.left = node;
-        //             console.log('left');
-        //             break;
-        //         }
-        //         console.log('next left');
-        //         currentNode = currentNode.left;
-        //     } else if (data > currentNode.data) {
-        //         if (!currentNode.right) {
-        //             currentNode.right = node;
-        //             console.log('right');
-        //             break;
-        //         }
-        //         console.log('next right');
-        //         currentNode = currentNode.right;
-        //     }
-        // }
         console.log('-----------');
     }
 }
 
 let btmc = new BinaryTreeMorseCode();
 
-btmc.insert(Object.keys(morseCode)[0]);
 btmc.insert(Object.keys(morseCode)[1]);
+btmc.insert(Object.keys(morseCode)[0]);
 
 
 
 /// psedo
 
 //
+
+
+
 
 
 

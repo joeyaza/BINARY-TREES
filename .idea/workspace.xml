@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad2971f-205e-4bd2-a20e-0961a6d0dcb8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BST-numbers.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Morse-code-binary-tree.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bst-TESTS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bst-TESTS.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bst.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BST-morse-code.js" afterPath="$PROJECT_DIR$/BST-morse-code.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BST-morse-code.ts" afterPath="$PROJECT_DIR$/BST-morse-code.ts" />
@@ -18,48 +26,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bst.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bst.ts">
+      <file leaf-file-name="bst-TESTS.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bst-TESTS.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
-              <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BST-morse-code.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BST-morse-code.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+            <state relative-caret-position="2730">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="276" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST-morse-code.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BST-morse-code.js">
+      <file leaf-file-name="BST-morse-code.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BST-morse-code.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508883315000" expanded="true" signature="878:2674" ph="{...}" />
-                <marker date="1508883315000" expanded="true" signature="1013:2639" ph="{...}" />
-                <marker date="1508883315000" expanded="true" signature="1106:1169" ph="{...}" />
-                <marker date="1508883315000" expanded="true" signature="1178:1236" ph="//..." />
-              </folding>
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Morse-code-binary-tree-2nd-solution.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BinaryTree</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>Node</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -69,7 +82,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bst.js" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/bst.ts" />
+        <option value="$PROJECT_DIR$/BST-numbers.ts" />
+        <option value="$PROJECT_DIR$/Morse-code-binary-tree.ts" />
+        <option value="$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts" />
         <option value="$PROJECT_DIR$/BST-morse-code.ts" />
       </list>
     </option>
@@ -77,10 +94,10 @@
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
@@ -115,11 +132,6 @@
               <item name="morse-code-tree-ts" type="b2602c69:ProjectViewProjectNode" />
               <item name="morse-code-tree-ts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="morse-code-tree-ts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="morse-code-tree-ts" type="462c0819:PsiDirectoryNode" />
-              <item name="BST-morse-code.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -130,6 +142,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,17 +160,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.BST-morse-code.js">
+  <component name="RunManager" selected="Node.js.Morse-code-binary-tree.js">
     <configuration name="BST-morse-code.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="BST-morse-code.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="bst.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="bst.js" working-dir="$PROJECT_DIR$" />
-    <list size="2">
+    <configuration name="BST-numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="BST-numbers.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Morse-code-binary-tree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Morse-code-binary-tree.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="bst.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/bst-TESTS.js" working-dir="$PROJECT_DIR$" />
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bst.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.BST-morse-code.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.BST-numbers.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Morse-code-binary-tree.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.BST-morse-code.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.bst.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Morse-code-binary-tree.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.BST-numbers.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.bst.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.BST-morse-code.js" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +192,22 @@
       <updated>1508753167487</updated>
       <workItem from="1508753168646" duration="518000" />
       <workItem from="1508863134040" duration="1023000" />
-      <workItem from="1508876679544" duration="3352000" />
+      <workItem from="1508876679544" duration="9770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4893000" />
+    <option name="totallyTimeSpent" value="11311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24236111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23764706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26117647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -205,6 +228,9 @@
       <list>
         <option value="$PROJECT_DIR$/bst.js" />
         <option value="$PROJECT_DIR$/BST-morse-code.js" />
+        <option value="$PROJECT_DIR$/BST-numbers.js" />
+        <option value="$PROJECT_DIR$/Morse-code-binary-tree.js" />
+        <option value="$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.js" />
       </list>
     </option>
   </component>
@@ -216,13 +242,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bst.ts">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2595">
           <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -234,60 +258,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bst.ts">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bst.js">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bst.js">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2201">
           <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bst.ts">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BST-morse-code.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+        <state relative-caret-position="89">
+          <caret line="515" column="53" lean-forward="false" selection-start-line="515" selection-start-column="53" selection-end-line="515" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BST-morse-code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-2074">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508883315000" expanded="true" signature="878:2674" ph="{...}" />
-            <marker date="1508883315000" expanded="true" signature="1013:2639" ph="{...}" />
-            <marker date="1508883315000" expanded="true" signature="1106:1169" ph="{...}" />
-            <marker date="1508883315000" expanded="true" signature="1178:1236" ph="//..." />
+            <marker date="1508971027000" expanded="true" signature="3986:4021" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="68" column="24" lean-forward="false" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-numbers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="108" column="35" lean-forward="false" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-morse-code.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="276" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
