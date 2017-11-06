@@ -1,31 +1,34 @@
 
 class BinaryTree {
+
     constructor(value, left = null, right = null) {
         this.value = value
         this.left = left
         this.right = right
     }
 
-    [Symbol.iterator]() {
-        let tree = [this.value, this.left, this.right]
-
-        return {
-            next() {
-                let node = tree.shift()
-                if (node instanceof BinaryTree) {
-                    tree.splice(0, 0, node.value, node.left, node.right)
-                    return this.next()
-                }
-                else if (node === null) {
-                    return this.next()
-                }
-                else if (node !== undefined) {
-                    return { value: node }
-                }
-                return { done: true }
-            }
-        }
-    }
+    // [Symbol.iterator]() {
+    //
+    //     let tree = [this.value, this.left, this.right]
+    //
+    //         next() {
+    //             let node = tree.shift();
+    //             console.log(node);
+    //             if (node instanceof BinaryTree) {
+    //                 console.log('here');
+    //                 tree.splice(0, 0, node.value, node.left, node.right);
+    //                 return this.next()
+    //             }
+    //             else if (node === null) {
+    //                 return this.next()
+    //             }
+    //             else if (node !== undefined) {
+    //                 return { value: node }
+    //             }
+    //             return { done: true }
+    //         }
+    //
+    // }
 }
 
 let tree = new BinaryTree('ROOT',
@@ -81,5 +84,5 @@ let tree = new BinaryTree('ROOT',
 );
 
 
-const tree1 = JSON.stringify(tree);
-console.log(tree1);
+const treeString = JSON.stringify(tree);
+console.log(treeString);

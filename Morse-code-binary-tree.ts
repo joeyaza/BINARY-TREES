@@ -11,6 +11,27 @@ class Node {
         this.left = left
         this.right = right
     }
+
+    search(data, bt) {
+        let currentNode;
+        const len = data.length;
+
+        for (let i = 0; i < data.length; i++) {
+
+            if (data[i] === ".") {
+                
+
+
+            } else {
+
+
+
+            }
+
+        }
+
+
+    }
 }
 
 let tree = new Node('ROOT',
@@ -65,5 +86,5 @@ let tree = new Node('ROOT',
     )
 );
 
-const treeString = JSON.stringify(tree);
-console.log(treeString);
+tree.search(".-", tree);
+
