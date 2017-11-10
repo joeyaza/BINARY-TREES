@@ -12,26 +12,6 @@ class Node {
         this.right = right
     }
 
-    search(data, bt) {
-        let currentNode;
-        const len = data.length;
-
-        for (let i = 0; i < data.length; i++) {
-
-            if (data[i] === ".") {
-                
-
-
-            } else {
-
-
-
-            }
-
-        }
-
-
-    }
 }
 
 let tree = new Node('ROOT',
@@ -86,5 +66,36 @@ let tree = new Node('ROOT',
     )
 );
 
-tree.search(".-", tree);
+let search = (node, string) => {
+
+    const er = "sorry, please input a correct morse code!!!";
+
+    if (!string) {
+
+        if (!node.value) {
+
+            return er;
+
+        }
+
+        console.log(node.value);
+        return node.value;
+
+    }
+
+    if (string[0] === ".") {
+
+        return search(node.left, string.substring(1,string.length));
+
+    } else if (string[0] === "-" || string[0] === "_") {
+
+        return search(node.right, string.substring(1,string.length));
+
+    }
+
+    return er;
+
+};
+
+search(tree, ".-");
 
