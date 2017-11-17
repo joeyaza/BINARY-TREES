@@ -25,12 +25,19 @@ let tree = new Node('ROOT',
                 new Node("v")
             ),
             new Node("u",
-                new Node('f')
+                new Node('f'),
+                new Node(' ',
+                    new Node(' '),
+                    new Node('2')
+                )
             )
         ),
         new Node('a',
             new Node("r",
-                new Node("l")
+                new Node("l"),
+                new Node(" ",
+                    new Node("+")
+                )
             ),
             new Node("w",
                 new Node("p"),
@@ -61,16 +68,36 @@ let tree = new Node('ROOT',
                 ),
                 new Node("q")
             ),
-            new Node("o")
+            new Node("o",
+                new Node(" ",
+                    new Node("8")
+                ),
+                new Node(" ",
+                    new Node("9"),
+                    new Node("0")
+                )
+            )
         )
     )
 );
 
-let search = (node, string) => {
+let search = (node: object, str: string) => {
 
-    const er = "sorry, please input a correct morse code!!!";
+    const er: string = "sorry, please input a correct morse code!!!";
+    let i: number;
 
-    if (!string) {
+    for (i = 0; i < str.length; i++) {
+
+        console.log("strI>", str[i]);
+
+        if ((str[i] != ".") || (str[i] != "-") || (str[i] != "_")) {
+
+            console.log("why the fuck am I erroring !!!!");
+
+        }
+    }
+
+    if (!str) {
 
         if (!node.value) {
 
@@ -83,13 +110,13 @@ let search = (node, string) => {
 
     }
 
-    if (string[0] === ".") {
+    if (str[0] === ".") {
 
-        return search(node.left, string.substring(1,string.length));
+        return search(node.left, str.substring(1,str.length));
 
-    } else if (string[0] === "-" || string[0] === "_") {
+    } else if (str[0] === "-" || str[0] === "_") {
 
-        return search(node.right, string.substring(1,string.length));
+        return search(node.right, str.substring(1,str.length));
 
     }
 
@@ -97,5 +124,5 @@ let search = (node, string) => {
 
 };
 
-search(tree, ".-");
+search(tree, "_.");
 
