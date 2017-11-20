@@ -27,11 +27,12 @@ var search = function (node, str) {
             throw er;
         }
         result = result + node.value;
-        console.log(result);
+        console.log("2", result);
         return result;
     }
     if (str[0] === "/") {
         result = result + " ";
+        console.log("1", result);
         return search(tree, str.substring(1, str.length));
     }
     if (str[0] === ".") {

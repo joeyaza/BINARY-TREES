@@ -87,7 +87,7 @@ let search = (node: object, str: string) => {
 
     const er: string = "sorry, please input a correct morse code!!!";
     let i: number;
-    let result = "";
+    let result: string = "";
 
     for (i = 0; i < str.length; i++) {
 
@@ -108,7 +108,7 @@ let search = (node: object, str: string) => {
 
         result = result + node.value;
 
-        console.log(result);
+        console.log("2", result);
         return result;
 
     }
@@ -116,9 +116,9 @@ let search = (node: object, str: string) => {
     if (str[0] === "/") {
 
         result = result + " ";
+        console.log("1", result);
 
-            return search(tree, str.substring(1,str.length));
-
+        return search(tree, str.substring(1,str.length));
 
     }
 
