@@ -81,18 +81,19 @@ let tree = new Node('ROOT',
     )
 );
 
+// search functionality
+
 let search = (node: object, str: string) => {
 
     const er: string = "sorry, please input a correct morse code!!!";
     let i: number;
+    let result = "";
 
     for (i = 0; i < str.length; i++) {
 
-        console.log("strI>", str[i]);
+        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/")) {
 
-        if ((str[i] != ".") || (str[i] != "-") || (str[i] != "_")) {
-
-            console.log("why the fuck am I erroring !!!!");
+            throw er;
 
         }
     }
@@ -101,28 +102,51 @@ let search = (node: object, str: string) => {
 
         if (!node.value) {
 
-            return er;
+            throw er;
 
         }
 
-        console.log(node.value);
-        return node.value;
+        result = result + node.value;
+
+        console.log(result);
+        return result;
+
+    }
+
+    if (str[0] === "/") {
+
+        result = result + " ";
+
+            return search(tree, str.substring(1,str.length));
+
 
     }
 
     if (str[0] === ".") {
 
-        return search(node.left, str.substring(1,str.length));
+        if (node.left) {
+
+            return search(node.left, str.substring(1,str.length));
+
+        }
+
+        throw er;
 
     } else if (str[0] === "-" || str[0] === "_") {
 
-        return search(node.right, str.substring(1,str.length));
+        if (node.right) {
+
+            return search(node.right, str.substring(1,str.length));
+
+        }
+
+        throw er;
 
     }
 
-    return er;
+    throw er;
 
 };
 
-search(tree, "_.");
+search(tree, ".-./.-.");
 
