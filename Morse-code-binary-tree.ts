@@ -7,9 +7,11 @@ class Node {
     public value: String;
 
     constructor(value, left = null, right = null) {
-        this.value = value
-        this.left = left
-        this.right = right
+
+        this.value = value;
+        this.left = left;
+        this.right = right;
+
     }
 
 }
@@ -81,17 +83,20 @@ let tree = new Node('ROOT',
     )
 );
 
+//
 // search functionality
+//
+
+let result: string = "";
 
 let search = (node: object, str: string) => {
 
     const er: string = "sorry, please input a correct morse code!!!";
     let i: number;
-    let result: string = "";
 
     for (i = 0; i < str.length; i++) {
 
-        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/")) {
+        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/") && (str[i] != " ") && (str[i] != "+")) {
 
             throw er;
 
@@ -106,19 +111,23 @@ let search = (node: object, str: string) => {
 
         }
 
-        result = result + node.value;
+        result += node.value;
 
-        console.log("2", result);
-        return result;
+    }
+
+    if ((str[0] === " ") || (str[0] === "+")) {
+
+        result += node.value + " ";
+
+        return search(tree, str.substring(1, str.length));
 
     }
 
     if (str[0] === "/") {
 
-        result = result + " ";
-        console.log("1", result);
+        result += node.value;
 
-        return search(tree, str.substring(1,str.length));
+        return search(tree, str.substring(1, str.length));
 
     }
 
@@ -126,7 +135,7 @@ let search = (node: object, str: string) => {
 
         if (node.left) {
 
-            return search(node.left, str.substring(1,str.length));
+            return search(node.left, str.substring(1, str.length));
 
         }
 
@@ -136,7 +145,7 @@ let search = (node: object, str: string) => {
 
         if (node.right) {
 
-            return search(node.right, str.substring(1,str.length));
+            return search(node.right, str.substring(1, str.length));
 
         }
 
@@ -144,9 +153,10 @@ let search = (node: object, str: string) => {
 
     }
 
-    throw er;
+    console.log(result);
+    return result;
 
 };
 
-search(tree, ".-./.-.");
+search(tree, "...././.-../.-../--- .--/---/.-./.-../-..");
 

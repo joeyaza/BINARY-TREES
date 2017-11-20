@@ -12,13 +12,15 @@ var Node = (function () {
     return Node;
 }());
 var tree = new Node('ROOT', new Node('e', new Node('i', new Node("s", new Node("h", new Node("5"), new Node("4")), new Node("v")), new Node("u", new Node('f'), new Node(' ', new Node(' '), new Node('2')))), new Node('a', new Node("r", new Node("l"), new Node(" ", new Node("+"))), new Node("w", new Node("p"), new Node("j")))), new Node('t', new Node('n', new Node("d", new Node("b", new Node("6"), new Node("=")), new Node("x", new Node("/"))), new Node("k", new Node("c"), new Node("y"))), new Node('m', new Node("g", new Node("z", new Node("7")), new Node("q")), new Node("o", new Node(" ", new Node("8")), new Node(" ", new Node("9"), new Node("0"))))));
+//
 // search functionality
+//
+var result = "";
 var search = function (node, str) {
     var er = "sorry, please input a correct morse code!!!";
     var i;
-    var result = "";
     for (i = 0; i < str.length; i++) {
-        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/")) {
+        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/") && (str[i] != " ") && (str[i] != "+")) {
             throw er;
         }
     }
@@ -26,13 +28,14 @@ var search = function (node, str) {
         if (!node.value) {
             throw er;
         }
-        result = result + node.value;
-        console.log("2", result);
-        return result;
+        result += node.value;
+    }
+    if ((str[0] === " ") || (str[0] === "+")) {
+        result += node.value + " ";
+        return search(tree, str.substring(1, str.length));
     }
     if (str[0] === "/") {
-        result = result + " ";
-        console.log("1", result);
+        result += node.value;
         return search(tree, str.substring(1, str.length));
     }
     if (str[0] === ".") {
@@ -47,6 +50,7 @@ var search = function (node, str) {
         }
         throw er;
     }
-    throw er;
+    console.log(result);
+    return result;
 };
-search(tree, ".-./.-.");
+search(tree, "...././.-../.-../--- .--/---/.-./.-../-..");
