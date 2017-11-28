@@ -88,22 +88,29 @@ let tree = new Node('ROOT',
 //
 
 let result: string = "";
+const er: string = "sorry, please input a correct morse code!!!";
 
-let search = (node: object, str: string) => {
+let incorrectCharacter = (character) => {
 
-    const er: string = "sorry, please input a correct morse code!!!";
-    let i: number;
+    if ((character != ".") && (character != "-") && (character != "_") && (character != "/") && (character != " ") && (character != "+")) {
 
-    for (i = 0; i < str.length; i++) {
-
-        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/") && (str[i] != " ") && (str[i] != "+")) {
-
-            throw er;
-
-        }
+        throw er;
     }
 
-    if (!str) {
+
+};
+
+let search = (node: object, code: string) => {
+
+    let i: number;
+
+    for (i = 0; i < code.length; i++) {
+
+        incorrectCharacter(code[i]);
+
+    }
+
+    if (!code) {
 
         if (!node.value) {
 
@@ -115,37 +122,37 @@ let search = (node: object, str: string) => {
 
     }
 
-    if ((str[0] === "/") || (str[0] === "+")) {
+    if ((code[0] === "/") || (code[0] === "+")) {
 
         result += node.value + " ";
 
-        return search(tree, str.substring(1, str.length));
+        return search(tree, code.substring(1, code.length));
 
     }
 
-    if (str[0] === " ") {
+    if (code[0] === " ") {
 
         result += node.value;
 
-        return search(tree, str.substring(1, str.length));
+        return search(tree, code.substring(1, code.length));
 
     }
 
-    if (str[0] === ".") {
+    if (code[0] === ".") {
 
         if (node.left) {
 
-            return search(node.left, str.substring(1, str.length));
+            return search(node.left, code.substring(1, code.length));
 
         }
 
         throw er;
 
-    } else if (str[0] === "-" || str[0] === "_") {
+    } else if (code[0] === "-" || code[0] === "_") {
 
         if (node.right) {
 
-            return search(node.right, str.substring(1, str.length));
+            return search(node.right, code.substring(1, code.length));
 
         }
 

@@ -16,37 +16,40 @@ var tree = new Node('ROOT', new Node('e', new Node('i', new Node("s", new Node("
 // search functionality
 //
 var result = "";
-var search = function (node, str) {
-    var er = "sorry, please input a correct morse code!!!";
-    var i;
-    for (i = 0; i < str.length; i++) {
-        if ((str[i] != ".") && (str[i] != "-") && (str[i] != "_") && (str[i] != "/") && (str[i] != " ") && (str[i] != "+")) {
-            throw er;
-        }
+var er = "sorry, please input a correct morse code!!!";
+var incorrectCharacter = function (character) {
+    if ((character != ".") && (character != "-") && (character != "_") && (character != "/") && (character != " ") && (character != "+")) {
+        throw er;
     }
-    if (!str) {
+};
+var search = function (node, code) {
+    var i;
+    for (i = 0; i < code.length; i++) {
+        incorrectCharacter(code[i]);
+    }
+    if (!code) {
         if (!node.value) {
             throw er;
         }
         result += node.value;
     }
-    if ((str[0] === "/") || (str[0] === "+")) {
+    if ((code[0] === "/") || (code[0] === "+")) {
         result += node.value + " ";
-        return search(tree, str.substring(1, str.length));
+        return search(tree, code.substring(1, code.length));
     }
-    if (str[0] === " ") {
+    if (code[0] === " ") {
         result += node.value;
-        return search(tree, str.substring(1, str.length));
+        return search(tree, code.substring(1, code.length));
     }
-    if (str[0] === ".") {
+    if (code[0] === ".") {
         if (node.left) {
-            return search(node.left, str.substring(1, str.length));
+            return search(node.left, code.substring(1, code.length));
         }
         throw er;
     }
-    else if (str[0] === "-" || str[0] === "_") {
+    else if (code[0] === "-" || code[0] === "_") {
         if (node.right) {
-            return search(node.right, str.substring(1, str.length));
+            return search(node.right, code.substring(1, code.length));
         }
         throw er;
     }

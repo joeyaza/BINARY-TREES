@@ -73,4 +73,4 @@ let search = (alpha: string) => {
 
 };
 
-search("Hello world");
+search("Hello there world, I making a standard sentence. It should work in the generator...");

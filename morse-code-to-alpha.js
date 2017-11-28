@@ -60,4 +60,4 @@ var search = function (alpha) {
     console.log(result);
     return result;
 };
-search("Hello world");
+search("Hello there world, I making a standard sentence. It should work in the generator...");
