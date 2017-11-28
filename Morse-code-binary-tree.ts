@@ -115,7 +115,7 @@ let search = (node: object, str: string) => {
 
     }
 
-    if ((str[0] === " ") || (str[0] === "+")) {
+    if ((str[0] === "/") || (str[0] === "+")) {
 
         result += node.value + " ";
 
@@ -123,7 +123,7 @@ let search = (node: object, str: string) => {
 
     }
 
-    if (str[0] === "/") {
+    if (str[0] === " ") {
 
         result += node.value;
 
@@ -158,5 +158,5 @@ let search = (node: object, str: string) => {
 
 };
 
-search(tree, "...././.-../.-../--- .--/---/.-./.-../-..");
+search(tree, ".... . .-.. .-.. ---/.-- --- .-. .-.. -..");
 

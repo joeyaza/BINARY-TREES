@@ -30,11 +30,11 @@ var search = function (node, str) {
         }
         result += node.value;
     }
-    if ((str[0] === " ") || (str[0] === "+")) {
+    if ((str[0] === "/") || (str[0] === "+")) {
         result += node.value + " ";
         return search(tree, str.substring(1, str.length));
     }
-    if (str[0] === "/") {
+    if (str[0] === " ") {
         result += node.value;
         return search(tree, str.substring(1, str.length));
     }
@@ -53,4 +53,4 @@ var search = function (node, str) {
     console.log(result);
     return result;
 };
-search(tree, "...././.-../.-../--- .--/---/.-./.-../-..");
+search(tree, ".... . .-.. .-.. ---/.-- --- .-. .-.. -..");
