@@ -90,23 +90,56 @@ let tree = new Node('ROOT',
 let result: string = "";
 const er: string = "sorry, please input a correct morse code!!!";
 
-let incorrectCharacter = (character) => {
+let incorrectCharacter = (characters) => {
 
-    if ((character != ".") && (character != "-") && (character != "_") && (character != "/") && (character != " ") && (character != "+")) {
+    console.log(">>>>", characters);
+
+    const incorrectCharc = ['.', "-", "_", "/", " ", "+"];
+
+    if (!incorrectCharc.indexOf(characters) ) {
 
         throw er;
+
     }
-
-
 };
 
-let search = (node: object, code: string) => {
+let locate = (node: object, code: string) => {
 
-    let i: number;
+    if ((code[0] === "/") || (code[0] === "+")) {
 
-    for (i = 0; i < code.length; i++) {
+        result += node.value + " ";
 
-        incorrectCharacter(code[i]);
+        return locate(tree, code.substring(1, code.length));
+
+    }
+
+    if (code[0] === " ") {
+
+        result += node.value;
+
+        return locate(tree, code.substring(1, code.length));
+
+    }
+
+    if (code[0] === ".") {
+
+        if (node.left) {
+
+            return locate(node.left, code.substring(1, code.length));
+
+        }
+
+        throw er;
+
+    } else if (code[0] === "-" || code[0] === "_") {
+
+        if (node.right) {
+
+            return locate(node.right, code.substring(1, code.length));
+
+        }
+
+        throw er;
 
     }
 
@@ -122,43 +155,16 @@ let search = (node: object, code: string) => {
 
     }
 
-    if ((code[0] === "/") || (code[0] === "+")) {
 
-        result += node.value + " ";
+    return result;
 
-        return search(tree, code.substring(1, code.length));
+}
 
-    }
+let search = (node: object, code: string) => {
 
-    if (code[0] === " ") {
+    incorrectCharacter(code);
 
-        result += node.value;
-
-        return search(tree, code.substring(1, code.length));
-
-    }
-
-    if (code[0] === ".") {
-
-        if (node.left) {
-
-            return search(node.left, code.substring(1, code.length));
-
-        }
-
-        throw er;
-
-    } else if (code[0] === "-" || code[0] === "_") {
-
-        if (node.right) {
-
-            return search(node.right, code.substring(1, code.length));
-
-        }
-
-        throw er;
-
-    }
+    locate(node, code);
 
     console.log(result);
     return result;

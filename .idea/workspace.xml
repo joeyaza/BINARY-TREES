@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ad2971f-205e-4bd2-a20e-0961a6d0dcb8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BST-numbers.ts" afterPath="$PROJECT_DIR$/BST-numbers.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Morse-code-binary-tree.js" afterPath="$PROJECT_DIR$/Morse-code-binary-tree.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Morse-code-binary-tree.ts" afterPath="$PROJECT_DIR$/Morse-code-binary-tree.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/morse-code-to-alpha.js" afterPath="$PROJECT_DIR$/morse-code-to-alpha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/morse-code-to-alpha.ts" afterPath="$PROJECT_DIR$/morse-code-to-alpha.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +17,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="morse-code-to-alpha.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Morse-code-binary-tree.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="1321">
+              <caret line="166" column="4" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Morse-code-binary-tree.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding>
+                <marker date="1512320313000" expanded="true" signature="1348:2097" ph="{...}" />
+                <marker date="1512320313000" expanded="true" signature="1883:1964" ph="{...}" />
+                <marker date="1512320313000" expanded="true" signature="1883:1940" ph="{...}" />
+                <marker date="1512320313000" expanded="true" signature="1980:2076" ph="{...}" />
+                <marker date="1512320313000" expanded="true" signature="2007:2040" ph="{...}" />
+                <marker date="1512320313000" expanded="true" signature="2134:2235" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,9 +91,9 @@
         <option value="$PROJECT_DIR$/morse-code-binary-tree-3rd-solution.ts" />
         <option value="$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts" />
         <option value="$PROJECT_DIR$/morse-code-to-alpha.js" />
-        <option value="$PROJECT_DIR$/Morse-code-binary-tree.ts" />
         <option value="$PROJECT_DIR$/morse-code-to-alpha.ts" />
         <option value="$PROJECT_DIR$/BST-numbers.ts" />
+        <option value="$PROJECT_DIR$/Morse-code-binary-tree.ts" />
       </list>
     </option>
   </component>
@@ -105,24 +131,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BINARY-TREES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BINARY-TREES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BINARY-TREES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BINARY-TREES" type="462c0819:PsiDirectoryNode" />
-              <item name="morse-code-to-alpha.ts" type="620a8d5e:NestingTreeNode" />
+              <item name="Binary-Trees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Binary-Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.morse-code-to-alpha.js">
+  <component name="RunManager" selected="Node.js.Morse-code-binary-tree.js">
     <configuration name="BST-numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="BST-numbers.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Morse-code-binary-tree-2nd-solution.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Morse-code-binary-tree-2nd-solution.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Morse-code-binary-tree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Morse-code-binary-tree.js" working-dir="$PROJECT_DIR$" />
@@ -162,9 +183,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.morse-code-to-alpha.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.BST-numbers.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Morse-code-binary-tree.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Morse-code-binary-tree.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.morse-code-to-alpha.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.BST-numbers.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.Morse-code-binary-tree-2nd-solution.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.morse-code-binary-tree-3rd-solution.js" />
       </list>
@@ -195,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38318000" />
+    <option name="totallyTimeSpent" value="39910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,26 +228,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-289" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15955766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15902779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31504065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31411764" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39735773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39764705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31504065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15955766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39735773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,26 +280,79 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+    <entry file="file://$PROJECT_DIR$/morse-code-binary-tree-3rd-solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree-2nd-solution.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+    <entry file="file://$PROJECT_DIR$/bst-TESTS.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="622">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morse-code-binary-tree-3rd-solution.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-morse-code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-morse-code.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BST-numbers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -279,21 +362,58 @@
         <state relative-caret-position="315">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1511886709000" expanded="false" signature="0:62" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="87:329" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="127:310" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="993:1022" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="1346:2214" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1435:1441" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1533:1566" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1401:1470" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1428:1461" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1592:1619" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1814:1830" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2168" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2144" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1348:2097" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1964" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1940" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1980:2076" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2007:2040" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2134:2235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1924">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/morse-code-to-alpha.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1512320313000" expanded="true" signature="1348:2097" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1964" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1940" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1980:2076" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2007:2040" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2134:2235" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -305,36 +425,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <marker date="1511886709000" expanded="false" signature="0:62" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="87:329" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="127:310" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="993:1022" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="1346:2214" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1435:1441" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1533:1566" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1401:1470" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1428:1461" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1592:1619" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1814:1830" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2168" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2144" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1348:2097" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1964" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1940" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1980:2076" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2007:2040" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2134:2235" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -473,68 +575,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1511886709000" expanded="false" signature="0:62" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="87:329" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="127:310" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="993:1022" ph="//..." />
-            <marker date="1511886709000" expanded="true" signature="1346:2214" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1435:1441" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1533:1566" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1401:1470" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1428:1461" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1592:1619" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1814:1830" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="1924:1938" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2168" ph="{...}" />
-            <marker date="1511886709000" expanded="true" signature="2124:2144" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="163" column="18" lean-forward="true" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
-          <folding>
-            <marker date="1511886707000" expanded="false" signature="0:62" ph="//..." />
-            <marker date="1511886707000" expanded="true" signature="75:249" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="155:246" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="1830:1859" ph="//..." />
-            <marker date="1511886707000" expanded="true" signature="1993:2164" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2134:2160" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2212:3115" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2273:2319" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2336:2437" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2364:2399" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2487:2594" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2621:2722" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2749:2884" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2775:2858" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2930:3067" ph="{...}" />
-            <marker date="1511886707000" expanded="true" signature="2957:3041" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -542,13 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1511887451000" expanded="true" signature="22:793" ph="{&quot;0&quot;: &quot;-----&quot;...}" />
-            <marker date="1511887451000" expanded="true" signature="827:1134" ph="{...}" />
-            <marker date="1511887451000" expanded="true" signature="944:1085" ph="{...}" />
-            <marker date="1511887451000" expanded="true" signature="976:1016" ph="{...}" />
-            <marker date="1511887451000" expanded="true" signature="1022:1078" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -556,21 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
           <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <marker date="1510309941000" expanded="true" signature="68:670" ph="{&quot;.-&quot;: 'a'...}" />
-            <marker date="1510309941000" expanded="true" signature="683:865" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="764:862" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="893:1779" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="914:954" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="973:1777" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1075:1138" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1333:1732" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1373:1567" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1417:1547" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1595:1715" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1641:1666" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="1672:1697" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,22 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511888069000" expanded="true" signature="65:667" ph="{&quot;.-&quot;: 'a'...}" />
-            <marker date="1511888069000" expanded="true" signature="693:834" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="719:815" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="878:1797" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="915:953" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1013:1762" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1106:1169" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1350:1720" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1385:1555" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1426:1541" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1594:1710" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1636:1655" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1677:1696" ph="{...}" />
-            <marker date="1511888069000" expanded="true" signature="1920:1932" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,36 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="178" column="44" lean-forward="false" selection-start-line="178" selection-start-column="44" selection-end-line="178" selection-end-column="44" />
-          <folding>
-            <marker date="1511888250000" expanded="true" signature="11:188" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="90:186" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="274:3883" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="295:335" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="341:727" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="745:1813" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="880:1022" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1104:1769" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1148:1433" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1190:1326" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1468:1758" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1511:1649" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1820:2147" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="2165:2649" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2233:2642" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2278:2430" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2465:2530" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2565:2631" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2656:2844" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="2863:3085" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2931:3078" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3091:3207" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="3225:3481" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3302:3359" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3487:3605" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="3623:3881" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3701:3759" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3984:4015" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,36 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511888250000" expanded="true" signature="24:165" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="50:146" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="267:4050" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="301:339" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="344:730" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="787:1830" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="912:1049" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1129:1788" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1172:1449" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1213:1345" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1496:1778" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1538:1672" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="1836:2163" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="2220:2716" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2287:2710" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2331:2479" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2526:2589" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2636:2700" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="2722:2910" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="2968:3176" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3027:3170" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3182:3298" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="3355:3595" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3422:3477" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3601:3719" ph="//..." />
-            <marker date="1511888250000" expanded="true" signature="3776:4018" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="3844:3900" ph="{...}" />
-            <marker date="1511888250000" expanded="true" signature="4155:4184" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,10 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511888832000" expanded="true" signature="30:284" ph="{...}" />
-            <marker date="1511888832000" expanded="true" signature="76:259" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,11 +632,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <marker date="1510309941000" expanded="true" signature="18:903" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="71:157" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="163:901" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,12 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1510309941000" expanded="true" signature="12:240" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="113:238" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="169:182" ph="{...}" />
-            <marker date="1510309941000" expanded="true" signature="189:232" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +648,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
           <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <marker date="1512320313000" expanded="true" signature="1348:2097" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1964" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1883:1940" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="1980:2076" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2007:2040" ph="{...}" />
+            <marker date="1512320313000" expanded="true" signature="2134:2235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Morse-code-binary-tree.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1321">
+          <caret line="166" column="4" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

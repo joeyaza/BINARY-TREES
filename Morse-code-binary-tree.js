@@ -17,15 +17,33 @@ var tree = new Node('ROOT', new Node('e', new Node('i', new Node("s", new Node("
 //
 var result = "";
 var er = "sorry, please input a correct morse code!!!";
-var incorrectCharacter = function (character) {
-    if ((character != ".") && (character != "-") && (character != "_") && (character != "/") && (character != " ") && (character != "+")) {
+var incorrectCharacter = function (characters) {
+    console.log(">>>>", characters);
+    var incorrectCharc = ['.', "-", "_", "/", " ", "+"];
+    if (!incorrectCharc.indexOf(characters)) {
         throw er;
     }
 };
-var search = function (node, code) {
-    var i;
-    for (i = 0; i < code.length; i++) {
-        incorrectCharacter(code[i]);
+var locate = function (node, code) {
+    if ((code[0] === "/") || (code[0] === "+")) {
+        result += node.value + " ";
+        return locate(tree, code.substring(1, code.length));
+    }
+    if (code[0] === " ") {
+        result += node.value;
+        return locate(tree, code.substring(1, code.length));
+    }
+    if (code[0] === ".") {
+        if (node.left) {
+            return locate(node.left, code.substring(1, code.length));
+        }
+        throw er;
+    }
+    else if (code[0] === "-" || code[0] === "_") {
+        if (node.right) {
+            return locate(node.right, code.substring(1, code.length));
+        }
+        throw er;
     }
     if (!code) {
         if (!node.value) {
@@ -33,26 +51,11 @@ var search = function (node, code) {
         }
         result += node.value;
     }
-    if ((code[0] === "/") || (code[0] === "+")) {
-        result += node.value + " ";
-        return search(tree, code.substring(1, code.length));
-    }
-    if (code[0] === " ") {
-        result += node.value;
-        return search(tree, code.substring(1, code.length));
-    }
-    if (code[0] === ".") {
-        if (node.left) {
-            return search(node.left, code.substring(1, code.length));
-        }
-        throw er;
-    }
-    else if (code[0] === "-" || code[0] === "_") {
-        if (node.right) {
-            return search(node.right, code.substring(1, code.length));
-        }
-        throw er;
-    }
+    return result;
+};
+var search = function (node, code) {
+    incorrectCharacter(code);
+    locate(node, code);
     console.log(result);
     return result;
 };
